@@ -2,7 +2,7 @@ import React from "react";
 function App() {
   /* You will need to use a boolean state to manage the weather */
 
-  const [isSunny, setIsSunny] = React.useState(true);
+  const [isSunny, setIsSunny] = React.useState(false);
 
   function onSunClick() {
     // Complete this code when we click on Sunny Time
